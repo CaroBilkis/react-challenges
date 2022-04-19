@@ -18,7 +18,7 @@ import Intro from './07-intro/Intro';
 
 ReactDOM.render(
   <React.StrictMode>
-     <Router>
+     {/* <Router>
       <Routes> 
         <Route path="/" element={<Home />} /> 
         <Route path="qr" element={<QR/>} />
@@ -30,8 +30,10 @@ ReactDOM.render(
         <Route path="intro" element={<Intro />} />
       </Routes>
 
-      </Router>
+      </Router> */}
+      <Home/>
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
