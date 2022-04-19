@@ -21,7 +21,7 @@ ReactDOM.render(
      <Router>
       <Routes> 
     
-        <Route path='/react-challenges' exact component={Home}/>
+        <Route path='/react-challenges' exact component={<Home/>}/>
         {/* <Route path="qr" element={<QR/>} />
         <Route path="faq" element={<Faq />} />
         <Route path="tracking" element={<Tracking />} />
