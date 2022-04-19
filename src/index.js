@@ -21,14 +21,14 @@ ReactDOM.render(
      <Router>
       <Routes> 
     
-        <Route path='/react-challenges' exact component={<Home/>}/>
-        <Route path="/react-challenges/qr" exact component={<QR/>} />
-        <Route path="/react-challenges/faq" exact component={<Faq />} />
-        <Route path="/react-challengestracking" exact component={<Tracking />} />
-        <Route path="/react-challenges/advice" exact component={<Advice/>} />
-        <Route path="/react-challenges/tips" exact component={<Tips/>} />
-        <Route path="/react-challenges/landing" exact component={<Landing />} />
-        <Route path="/react-challenges/intro" exact component={<Intro />} />
+        <Route path='/react-challenges' exact element={<Home/>}/>
+        <Route path="/react-challenges/qr" exact element={<QR/>} />
+        <Route path="/react-challenges/faq" exact element={<Faq />} />
+        <Route path="/react-challengestracking" exact element={<Tracking />} />
+        <Route path="/react-challenges/advice" exact element={<Advice/>} />
+        <Route path="/react-challenges/tips" exact element={<Tips/>} />
+        <Route path="/react-challenges/landing" exact element={<Landing />} />
+        <Route path="/react-challenges/intro" exact element={<Intro />} />
       </Routes>
 
       </Router>
