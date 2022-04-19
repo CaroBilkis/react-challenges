@@ -12,6 +12,7 @@ function Home() {
     <div className='container w-max h-auto mx-auto m-4 p-4'> 
     <div>
     <h1 className='text-6xl font-bold text-center'>Front-end challenges</h1>
+    <h1 className='text-4xl font-bold text-center'>React and Tailwindcss</h1>
     </div>
    <ul className='flex lg:flex-row md:flex-wrap sm:flex-col flex-col gap-8 mt-6   '>
     
