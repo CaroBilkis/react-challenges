@@ -18,20 +18,21 @@ import Intro from './07-intro/Intro';
 
 ReactDOM.render(
   <React.StrictMode>
-     {/* <Router>
+     <Router>
       <Routes> 
-        <Route path="/" element={<Home />} /> 
-        <Route path="qr" element={<QR/>} />
+    
+        <Route path='/{react-challenges}' exact component={Home}/>
+        {/* <Route path="qr" element={<QR/>} />
         <Route path="faq" element={<Faq />} />
         <Route path="tracking" element={<Tracking />} />
         <Route path="advice" element={<Advice/>} />
         <Route path="tips" element={<Tips/>} />
         <Route path="landing" element={<Landing />} />
-        <Route path="intro" element={<Intro />} />
+        <Route path="intro" element={<Intro />} /> */}
       </Routes>
 
-      </Router> */}
-      <Home/>
+      </Router>
+     
   </React.StrictMode>,
   
   document.getElementById('root')
