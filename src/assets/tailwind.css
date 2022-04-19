@@ -1,3 +1,331 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.w-desktop{
+    width:920px;
+    height: 508px;
+}
+.w-400{
+    width:350px;
+}
+
+.h-800{
+    height: 508px;
+}
+
+.w-mobile{
+    width:375px;
+    height:920px;
+    background-color: #6565e7;
+}
+
+.text-blue-1000{
+    color:hsl(238, 29%, 16%);
+}
+.text-m-red{
+    color:hsl(14, 88%, 65%)
+}
+.text-grayish-verydark{
+    color: hsl(237, 12%, 33%);
+}
+.text-grayish-dark{
+    color: hsl(240, 6%, 50%);
+}
+
+.text-body{
+    font-size: 14px;
+}
+.font-advice{
+    font-family: 'Manrope', sans-serif;
+}
+
+.font-tips{
+    font-family: 'Space Mono', monospace;
+}
+.text-body-lg{
+    font-size: 28px;
+}
+.text-body-md{
+    font-size: 24px;
+}
+
+.tracking-2{
+    letter-spacing: 0.4rem;
+}
+.text-body-medium{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+.text-light-cyan{
+    color: hsl(193, 38%, 86%);
+}
+
+.bg-light-cyan{
+    background-color: hsl(193, 38%, 86%);
+}
+.border-b-1{
+    border-bottom: 1px solid;
+}
+.border-light-cyan{
+    border-color: hsl(193, 38%, 86%);
+}
+.bg-neon-green{
+    background-color: hsl(150, 100%, 66%);
+}
+.bg-dark-green{
+    background-color: hsl(46, 76%, 87%);
+}
+.text-neon-green{
+    color: hsl(150, 100%, 66%);
+}
+
+.bg-grayish-blue{
+    background-color: hsl(217, 19%, 24%) ;
+}
+.bg-dark-blue{
+background-color: hsl(218, 23%, 16%);
+}
+.bg-m-violet{
+    background-color:hsl(273, 75%, 66%);
+    color:hsl(273, 75%, 66%)
+}
+.bg-m-blue-900{
+    background-color:hsl(226, 43%, 10%);
+}
+
+.bg-m-blue-800{
+    background-color: hsl(235, 46%, 20%);
+}
+.bg-m-blue-600{
+    background-color:hsl(246, 80%, 60%);
+}
+.bg-m-blue-500{
+    background-color: hsl(195, 74%, 62%);
+}
+
+.bg-m-blue-300{
+    background-color:hsl(235, 45%, 61%);
+}
+
+.bg-m-blue-200{
+    background-color: hsl(236, 100%, 87%);
+}
+.text-m-blue-200{
+    color: hsl(236, 100%, 87%);
+}
+
+.bg-m-blue{
+    background-color:hsl(240, 73%, 65%);
+}
+
+.bg-m-red-400{
+    background-color:hsl(348, 100%, 68%);
+}
+
+.bg-m-red-200{
+    background-color:hsl(15, 100%, 70%);
+}
+
+.bg-m-lime-500{
+    background-color:hsl(145, 58%, 55%);
+}
+
+.bg-m-violet-500{
+    background-color:hsl(264, 64%, 52%);
+}
+
+.bg-m-orange-100{
+    background-color: hsl(43, 84%, 65%);
+}
+
+
+.bg-gradient-m{
+    background-image: linear-gradient(#af67e9, #6565e7);
+}
+
+.bg-m-cyan-900{
+    background-color: hsl(183, 100%, 15%);
+}
+.text-m-cyan-900{
+    color: hsl(183, 100%, 15%);
+}
+.hover\:text-m-cyan-900:hover{
+    color: hsl(183, 100%, 15%);
+}
+.bg-m-cyan-800 {
+    background-color: hsl(172, 67%, 45%);
+}
+
+.hover\:bg-m-cyan-800:hover  {
+    --tw-bg-opacity:1;
+    background-color:hsl(172, 67%, 45%);
+    /* background-color: ; */
+}
+.text-m-cyan-800{
+    color: hsl(172, 67%, 45%);
+}
+.border-m-cyan-800{
+    border-color: hsl(172, 67%, 45%);
+}
+.focus\:border-m-cyan-800:focus{
+    border-color: hsl(172, 67%, 45%);
+}
+.focus-within\:border-r-500:focus-within {
+    --tw-border-opacity: 1;
+    border-color: hsl(224, 81%, 60%);
+  }
+
+  .border-r-500{
+    border-color: hsl(224, 81%, 60%);
+  }
+
+  .focus\:border-r-500:focus {
+    --tw-border-opacity: 1;
+    border-color:hsl(224, 81%, 60%);
+  }
+  
+.bg-m-cyan-700{
+    background-color:  hsl(186, 14%, 43%);
+}
+.bg-m-cyan-600{
+    background-color:  hsl(184, 14%, 56%);
+}
+.text-m-cyan-600{
+    color:  hsl(184, 14%, 56%);
+}
+.bg-m-cyan-500{
+    background-color:   hsl(185, 41%, 84%);
+}
+.bg-m-cyan-400{
+    background-color:   hsl(189, 41%, 97%);
+}
+.bg-m-cyan-300{
+    background-color: #9FE8DF;
+}
+.hover\:bg-m-cyan-300:hover  {
+    background-color: #9FE8DF;
+}
+
+.inset-x-100 {
+    left: 25.5rem/* 384px */;
+    right: 25.5rem/* 384px */;
+}
+
+/* LANDING */
+.font-barlow{
+    font-family: 'Barlow', sans-serif;
+}
+.font-fraunces{
+    font-family: 'Fraunces', serif;
+}
+.text-18{
+    font-size: 18px;
+}
+.bg-soft-red{
+    background-color: #FD6E60;
+}
+.border-soft-red{
+    border-color: #FD6E60;
+}
+.border-yellow{
+    border-color: hsl(51, 100%, 49%);
+}
+.bg-yellow{
+    background-color: hsl(51, 100%, 49%);
+}
+.bg-m-cyan{
+    background-color: #90D4C5 ;
+}
+.bg-m-sky-100{
+    background-color:#65cdff ;
+}
+.bg-dark-cyan{
+    background-color: hsl(167, 40%, 24%);
+}
+.bg-m-gray-600{
+    background-color: hsl(212, 27%, 19%);
+}
+.bg-m-gray-500{
+    background-color: hsl(213, 9%, 39%);
+}
+.bg-m-gray-400{
+    background-color: hsl(232, 10%, 55%);
+}
+.bg-m-gray-300{
+    background-color: hsl(210, 4%, 67%);
+}
+.text-m-gray-600{
+    color: hsl(212, 27%, 19%);
+}
+.text-m-gray-500{
+    color: hsl(213, 9%, 39%);
+}
+.text-m-gray-400{
+    color: hsl(232, 10%, 55%);
+}
+.text-m-gray-300{
+    color: hsl(210, 4%, 67%);
+}
+.text-dark-cyan{
+    color: hsl(167, 40%, 24%);
+}
+.text-moderate-cyan{
+    color: hsl(168, 34%, 41%);
+}
+.text-dark-blue{
+    color:  hsl(198, 62%, 26%);
+}
+.bg-m-sky{
+    background-color:#3EBFFF;
+}
+
+.bg-light-sky{
+    background-color:#6DD1FF;
+}
+.hover\:bg-light-sky:hover  {
+    background-color: #6DD1FF;
+}
+
+
+/* INTRO */
+
+.font-epilogue{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bg-almost-white{
+ background-color:  hsl(0, 0%, 98%);   
+}
+.bg-almost-gray{
+    background-color:  hsl(0, 0%, 41%);   
+}
+.bg-almost-black{
+    background-color:   hsl(0, 0%, 8%);   
+}
+
+.bg-almost-black-t50{
+    background-color:   rgba(0 0 0 50%);     
+}
+
+.hover\:bg-almost-white:hover  {
+    background-color:  hsl(0, 0%, 98%);
+}
+
+.text-almost-white{
+    color:  hsl(0, 0%, 98%);   
+   }
+   .text-almost-gray{
+       color:  hsl(0, 0%, 41%);   
+   }
+   .text-almost-black{
+       color:   hsl(0, 0%, 8%);   
+   }
