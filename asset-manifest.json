@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-challenges/static/css/main.19c9fa0f.css",
-    "main.js": "/react-challenges/static/js/main.9889ee6c.js",
+    "main.js": "/react-challenges/static/js/main.e75d4485.js",
     "static/js/787.88e72507.chunk.js": "/react-challenges/static/js/787.88e72507.chunk.js",
     "static/media/image-gallery-orange.jpg": "/react-challenges/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
     "static/media/image-graphic-design.jpg": "/react-challenges/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
     "static/media/image-photography.jpg": "/react-challenges/static/media/image-photography.104cf40b52f66520afb0.jpg",
     "index.html": "/react-challenges/index.html",
     "main.19c9fa0f.css.map": "/react-challenges/static/css/main.19c9fa0f.css.map",
-    "main.9889ee6c.js.map": "/react-challenges/static/js/main.9889ee6c.js.map",
+    "main.e75d4485.js.map": "/react-challenges/static/js/main.e75d4485.js.map",
     "787.88e72507.chunk.js.map": "/react-challenges/static/js/787.88e72507.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19c9fa0f.css",
-    "static/js/main.9889ee6c.js"
+    "static/js/main.e75d4485.js"
   ]
 }
