@@ -47,7 +47,7 @@ const [frecuency, setFrecuency] = useState("day");
   <div>
   
     <div className='bg-m-blue-900 text-body-medium h-screen lg:h-screen md:h-auto p-16'>
-    <Navigation/>
+    {/* <Navigation/> */}
     <div className='flex flex-col lg:flex-row md:flex-col  gap-8 lg:w-1110 md:w-375 sm:w-375 mx-auto my-16'>
 
     {/* Jeremy */}
@@ -55,7 +55,7 @@ const [frecuency, setFrecuency] = useState("day");
 
         <div className='bg-m-blue-600 mx-auto p-8 lg:pb-24 container w-72 rounded-2xl z-40 relative'>
             <div className='lg:w-48  flex lg:flex-col justify-center '>
-            <img className='lg:w-20 w-16 border-4  rounded-full border-white lg:mb-8' src="image-jeremy.png" alt="" />
+            <img className='lg:w-20 w-16 border-4  rounded-full border-white lg:mb-8' src="03-tracking/image-jeremy.png" alt="" />
             <div className='flex flex-col md:ml-4 ml-4 lg:ml-0  justify-center '>
             <h1 className='text-m-blue-200 text-sm font-normal'>Report for</h1>
             <h1 className='text-white lg:text-4xl text-xl font-light'> Jeremy Robson </h1>

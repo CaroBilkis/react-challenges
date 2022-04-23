@@ -11,6 +11,8 @@ module.exports = {
       photography:"url('./img/landing/image-photography.jpg')",
       standout:"url('./img/landing/image-stand-out.jpg')",
       transform:"url('./img/landing/image-transform.jpg')",
+      slider:"url('./img/pricing/icon-slider.svg')",
+      pricing:"url('./img/pricing/bg-pattern.svg')",
     }),
       variantOrder: [
         'first',
@@ -52,6 +54,17 @@ module.exports = {
         // => @media (min-width: 1920px) { ... }
       },
       width: {
+        '15':'15px',
+        '17':'17px',
+        '18':'18px',
+        '19':'19px',
+        '20':'20px',
+        '21':'21px',
+        '22':'22px',
+        '23':'23px',
+
+        '100':'440px',
+        '200':'220px',
         '250':'250px',
         '280':'280px',
         '310':'310px',
@@ -62,9 +75,11 @@ module.exports = {
         '400':'400px',
         '440':'440px',
         '472':'472px',
+        '480':'480px',
         '520':'520px',
         '540':'540px',
         '585':'585px',
+        '650':'650hpx',
         '700':'700px',
         '720':'720px',
         '800':'508px',
@@ -75,6 +90,7 @@ module.exports = {
       },
       height: {
         '330':'330px',
+        '480':'480px',
         '508':'508px',
         '530':'560px',
         '590':'590px',

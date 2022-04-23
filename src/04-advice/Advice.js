@@ -50,7 +50,7 @@ function Advice() {
      </div>
         
         <div onClick={getNewAdvice}  className='bg-neon-green  mx-auto relative inset-y-6 rounded-full p-3 w-12 justify-center hover:bg-green-400'>
-            <img className='transform ease-in-out duration-100 hover:rotate-45' src="/advice/icon-dice.png" alt="" />        
+            <img className='transform ease-in-out duration-100 hover:rotate-45' src="04-advice/icon-dice.png" alt="" />        
         </div>
     </div>
     

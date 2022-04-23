@@ -68,20 +68,18 @@ function Faq() {
 
   return (
   <div>
-  {/*  */}
+  
     <div className='h-screen p-16  bg-gradient-m'>
-    <Navigation/>
-   
-           {/* w-500 h-800 */}
-    <div className='bg-white mx-auto my-24 rounded-xl w-375  h-530 container md:rounded-xl sm:rounded-3xl  md:w-920 md:h-508 sm:w-375  sm:h-530'>
+  
+    <div className='bg-white mx-auto my-24 rounded-xl w-375  h-530  md:rounded-xl sm:rounded-3xl  md:w-920 md:h-508 sm:w-375  sm:h-530 shadow-xl'>
          
         <div className='flex flex-col p-4 md:flex-row lg:flex-row xl:flex-row'>
           
             <div className='static'>
             <div className='relative -top-32 left-8 md:-inset-x-20 md:inset-y-10 sm:-top-32 sm:left-8'>
-            <img className='w-64 sm:w-64 md:w-472  transform ease-in-out duration-300 hover:translate-x-1 '  src="illustration-woman-online-desktop.png"  alt="" />
+            <img className='w-64 sm:w-64 md:w-472  transform ease-in-out duration-300 hover:translate-x-1 '  src="02-faq/illustration-woman-online-desktop.png"  alt="" />
             <div className='absolute top-14 -left-6 md:top-24 md:-left-8  sm:top-14 sm:-left-6 z-40 '>
-            <img className='w-28 sm:w-28 md:w-48 transform ease-in-out duration-200 hover:translate-y-1' src="illustration-box-desktop.png"  alt="" />
+            <img className='w-28 sm:w-28 md:w-48 transform ease-in-out duration-200 hover:translate-y-1' src="02-faq/illustration-box-desktop.png"  alt="" />
             </div>
             </div>
             </div>

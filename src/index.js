@@ -5,7 +5,8 @@ import './assets/main.css';
 import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {HashRouter} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import QR from './01-qr/QR';
 import Faq from './02-faq/Faq';
@@ -14,24 +15,29 @@ import Advice from './04-advice/Advice';
 import Tips from './05-tip/Tips';
 import Landing from './06-landing-page/Landing';
 import Intro from './07-intro/Intro';
+import Pricing from './08-pricing/Pricing';
 
 
 ReactDOM.render(
   <React.StrictMode>
-     <Router>
+   <HashRouter>
+  
       <Routes> 
     
-        <Route path='/react-challenges' exact element={<Home/>}/>
-        <Route path="/react-challenges/qr" exact element={<QR/>} />
-        <Route path="/react-challenges/faq" exact element={<Faq />} />
-        <Route path="/react-challengestracking" exact element={<Tracking />} />
-        <Route path="/react-challenges/advice" exact element={<Advice/>} />
-        <Route path="/react-challenges/tips" exact element={<Tips/>} />
-        <Route path="/react-challenges/landing" exact element={<Landing />} />
-        <Route path="/react-challenges/intro" exact element={<Intro />} />
+        <Route exact path = '' element ={<Home/>}/>
+        <Route  path="/qr/"  element={<QR/>} />
+        <Route  path="/faq/"  element={<Faq />} />
+        <Route  path="/tracking/"  element={<Tracking />} />
+        <Route  path="/advice/"  element={<Advice/>} />
+        <Route  path="/tips/"  element={<Tips/>} />
+        <Route  path="/landing/"  element={<Landing />} />
+        <Route  path="/intro/"  element={<Intro />} />
+        <Route  path="/pricing/"  element={<Pricing />} />
       </Routes>
 
-      </Router>
+     
+   </HashRouter>
+     
      
   </React.StrictMode>,
   

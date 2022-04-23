@@ -34,7 +34,7 @@ function Intro() {
     <div className={'font-epilogue h-screen  mx-auto bg-almost-white  px-4 '}>
       
         <div className={'flex flex-col'}>
-        <NavigationBlack color='black'/>  
+        {/* <NavigationBlack color='black'/>   */}
         
         <div className='mt-8 flex flex-row justify-between  items-center'>
         <div className={'flex flex-row gap-12 '}>
@@ -195,8 +195,8 @@ function Intro() {
 
         
         <div>
-            <img className='md:flex sm:hidden hidden' src="../intro/image-hero-desktop.png" alt="Hero" />
-            <img className='md:hidden sm:flex flex ' src="../intro/image-hero-mobile.png" alt="Hero" />
+            <img className='md:flex sm:hidden hidden' src="07-intro/image-hero-desktop.png" alt="Hero" />
+            <img className='md:hidden sm:flex flex ' src="07-intro/image-hero-mobile.png" alt="Hero" />
         </div>
         </div>
     </div>

@@ -17,7 +17,7 @@ function Landing  () {
        <div className='flex flex-col '>   
 
       <div className='mb-8'>
-      <Navigation color='white'/>
+      {/* <Navigation color='white'/> */}
       
       </div>
            
@@ -63,8 +63,9 @@ function Landing  () {
             <svg className=' ' width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>   
 
             </div>
-            <img  className='hidden md:flex sm:hidden  z-0 ' src="../landing/images/desktop/image-header.jpg" alt="" />
-            <img  className='flex sm:-mt-96 lg:mt-0  md:hidden sm:flex z-30 ' src="../landing/images/mobile/image-header.jpg" alt="" />     
+            <img  className='hidden md:flex sm:hidden  z-0 ' src="06-landing-page/image-header.jpg" alt="" />
+            {/* C:\Users\Caro\react-challenges\public\06-landing-page\image-header.jpg */}
+            <img  className='flex sm:-mt-96 lg:mt-0  md:hidden sm:flex z-30 ' src="06-landing-page/image-header.jpg" alt="" />     
         </div>
 
         <div className='grid  grid-cols-1 sm:grid-cols-1 md:grid-cols-2  justify-between w-full z-40 '>
@@ -129,7 +130,7 @@ function Landing  () {
                 
                 <div className='flex flex-col'>  
                 <div  className='flex flex-col items-center p-8 gap-8'>
-                    <img className='w-14 rounded-full' src="../landing/images/image-emily.jpg" alt="" />
+                    <img className='w-14 rounded-full' src="06-landing-page/images/image-emily.jpg" alt="" />
                     <h1 className='font-barlow font-semibold text-m-gray-500 text-center w-310 '>Sunnyside's enthusiasm coupled with their keen interest in our brand's sucess made it a satisfying and enjoyable experience.</h1>
                 <div className='flex flex-col items-center gap-1.5'>
                 <h1 className='font-bold'>Emily R.</h1>
@@ -140,7 +141,7 @@ function Landing  () {
 
                 <div className='flex flex-col'>  
                 <div  className='flex flex-col items-center p-8 gap-8'>
-                    <img className='w-14 rounded-full' src="../landing/images/image-thomas.jpg" alt="" />
+                    <img className='w-14 rounded-full' src="06-landing-page/images/image-thomas.jpg" alt="" />
                     <h1 className='font-barlow font-semibold text-m-gray-500 text-center w-310 '>Sunnyside's enthusiasm coupled with their keen interest in our brand's sucess made it a satisfying and enjoyable experience.</h1>
                 <div className='flex flex-col items-center gap-1.5'>
                 <h1 className='font-bold'>Thomas S.</h1>
@@ -151,7 +152,7 @@ function Landing  () {
 
                 <div className='flex flex-col'>  
                 <div  className='flex flex-col items-center p-8 gap-8'>
-                    <img className='w-14 rounded-full' src="../landing/images/image-jennie.jpg" alt="" />
+                    <img className='w-14 rounded-full' src="06-landing-page/images/image-jennie.jpg" alt="" />
                     <h1 className='font-barlow font-semibold text-m-gray-500 text-center w-310 '>Sunnyside's enthusiasm coupled with their keen interest in our brand's sucess made it a satisfying and enjoyable experience.</h1>
                 <div className='flex flex-col items-center gap-1.5'>
                 <h1 className='font-bold'>Jennie F.</h1>

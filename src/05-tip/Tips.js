@@ -65,7 +65,7 @@ const TipAmount = (total,tip, people, reset) =>{
     <div>
  
     <div className='bg-m-cyan-500 font-tips text-body-md xl:h-screen lg:h-auto  md:h-auto mx-auto md:p-4 py-8 sm:py-8'>
-    <Navigation/>
+    {/* <Navigation/> */}
   
     <h1 className='uppercase text-m-cyan-900 text-center font-bold tracking-2 '>Spli <br /> tter</h1>
     
