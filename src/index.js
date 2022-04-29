@@ -16,6 +16,7 @@ import Tips from './05-tip/Tips';
 import Landing from './06-landing-page/Landing';
 import Intro from './07-intro/Intro';
 import Pricing from './08-pricing/Pricing';
+import Calculator from './09-calculator/Calculator';
 
 
 ReactDOM.render(
@@ -33,6 +34,7 @@ ReactDOM.render(
         <Route  path="/landing/"  element={<Landing />} />
         <Route  path="/intro/"  element={<Intro />} />
         <Route  path="/pricing/"  element={<Pricing />} />
+        <Route  path="/pricing/"  element={<Calculator />} />
       </Routes>
 
      

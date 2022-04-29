@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
-import { blueGray } from 'tailwindcss/colors';
-import Resize from './Resize';
+
 
 function Pricing  ()  {
     const [toggle, setToogle] = useState(false);
@@ -58,7 +57,7 @@ function Pricing  ()  {
     return (
       
     <div className='bg-pricing bg-no-repeat   bg-left-top sm:bg-auto md:bg-contain   h-screen font-manrope flex flex-col items-center  justify-center '>
-    <Resize/>
+   
 
     <div className=' flex flex-col gap-24 z-30 my-auto '>
   
