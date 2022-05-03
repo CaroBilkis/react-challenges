@@ -586,3 +586,70 @@ background-color:  hsl(25, 98%, 40%);
      color: hsl(52, 100%, 62%);
      
  } 
+ /* e-commerce */
+
+ .font-16{
+     font-size: 16px;
+ }
+.font-kumbhsans{
+    font-family: 'Kumbh Sans', sans-serif;
+ }
+
+ .bg-ec-orange {
+     background-color:  hsl(26, 100%, 55%);
+ }
+.border-ec-orange{
+    border-color:  hsl(26, 100%, 55%);
+}
+.hover\:bg-ec-orange:hover {
+    background-color:  hsl(26, 100%, 55%);
+}
+.hover\:text-ec-orange:hover {
+    color:  hsl(26, 100%, 55%);
+}
+.hover\:border-ec-orange:hover{
+    border-color:  hsl(26, 100%, 55%);
+}
+ .hover\:shadow-ec-orange:hover {
+  box-shadow: 0 6px 20px  hsl(26, 100%, 55%);
+}
+ .bg-ec-paleorange {
+    background-color:  hsl(25, 100%, 94%);
+}
+.bg-ec-varkblue {
+    background-color:  hsl(220, 13%, 13%);
+}
+
+.bg-ec-dark-grayishblue {
+    background-color:  hsl(219, 9%, 45%);
+}
+
+.bg-ec-grayishblue {
+    background-color:  hsl(220, 14%, 75%);
+}
+
+.bg-ec-light-grayishblue {
+    background-color:   hsl(223, 64%, 98%);
+}
+
+.text-ec-orange {
+    color:  hsl(26, 100%, 55%);
+}
+.text-ec-paleorange {
+   color:  hsl(25, 100%, 94%);
+}
+.text-ec-varkblue {
+    color:  hsl(220, 13%, 13%);
+}
+
+.text-ec-dark-grayishblue {
+    color:  hsl(219, 9%, 45%);
+}
+
+.text-ec-grayishblue {
+    color:  hsl(220, 14%, 75%);
+}
+
+.text-ec-light-grayishblue {
+    color:   hsl(223, 64%, 98%);
+}
