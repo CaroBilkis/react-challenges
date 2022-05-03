@@ -36,7 +36,7 @@ ReactDOM.render(
         <Route  path="/intro/"  element={<Intro />} />
         <Route  path="/pricing/"  element={<Pricing />} />
         <Route  path="/calculator/"  element={<Calculator />} />
-        <Route  path="/calculator/"  element={<Ecommerce />} />
+        <Route  path="/ecommerce/"  element={<Ecommerce />} />
       </Routes>
 
      
