@@ -263,7 +263,7 @@ function Ecommerce() {
       <div className='flex flex-row justify-between w-375 md:w-472'>
      
       {Gallery.map((img, index)=>(
-        <img    className='hidden md:flex w-1/5 rounded-xl border-2 border-transparent  hover:border-ec-orange'  key={index} src={img} onClick={()=> setSelectedImg(img)}alt="" />
+        <img    className='hidden md:flex w-1/5 rounded-xl border-2 border-transparent hover:opacity-80 hover:border-ec-orange'  key={index} src={img} onClick={()=> setSelectedImg(img)}alt="" />
       ))}
       </div>
       </div>
