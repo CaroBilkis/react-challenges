@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-challenges/static/css/main.61f0b498.css",
+    "main.css": "/react-challenges/static/css/main.3daa6bc0.css",
     "main.js": "/react-challenges/static/js/main.dde45933.js",
     "static/js/787.88e72507.chunk.js": "/react-challenges/static/js/787.88e72507.chunk.js",
     "static/media/image-gallery-orange.jpg": "/react-challenges/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
@@ -9,12 +9,12 @@
     "index.html": "/react-challenges/index.html",
     "static/media/icon-slider.svg": "/react-challenges/static/media/icon-slider.cbca35e0d11c560ba351.svg",
     "static/media/bg-pattern.svg": "/react-challenges/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
-    "main.61f0b498.css.map": "/react-challenges/static/css/main.61f0b498.css.map",
+    "main.3daa6bc0.css.map": "/react-challenges/static/css/main.3daa6bc0.css.map",
     "main.dde45933.js.map": "/react-challenges/static/js/main.dde45933.js.map",
     "787.88e72507.chunk.js.map": "/react-challenges/static/js/787.88e72507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f0b498.css",
+    "static/css/main.3daa6bc0.css",
     "static/js/main.dde45933.js"
   ]
 }
