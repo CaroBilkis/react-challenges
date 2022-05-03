@@ -250,7 +250,7 @@ function Ecommerce() {
         <svg class="relative -left-2 -top-2" width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fillRule="evenodd"/></svg>
         </button>
 
-        <div className='h-330 overflow-hidden w-440 bg-emerald-300'>
+        <div className='h-330 overflow-hidden w-440 '>
         <img className=' w-auto' src={imgs[numberImg]}/>
         </div>
 
@@ -263,17 +263,17 @@ function Ecommerce() {
       <div className='flex flex-row justify-between w-375 md:w-472'>
      
       {Gallery.map((img, index)=>(
-        <img    className='hidden md:flex w-1/5 rounded-xl border-2 border-transparent hover:opacity-80 hover:border-ec-orange'  key={index} src={img} onClick={()=> setSelectedImg(img)}alt="" />
+        <img    className='hidden md:flex w-1/5 rounded-xl border-2 border-transparent hover:opacity-60 hover:border-ec-orange'  key={index} src={img} onClick={()=> setSelectedImg(img)}alt="" />
       ))}
       </div>
       </div>
 
-      <div className='flex flex-col w-375 md:w-440 md:mr-16  '>
+      <div className='flex flex-col w-375 md:w-440 xl:w-585 md:mr-16  '>
       <div className='flex flex-col gap-4'>
       <h1 className='uppercase text-xs text-ec-orange font-bold '> sneaker company</h1>
 
       <div className='flex flex-col gap-4'>
-      <h1 className='text-4xl font-bold'>Fall Limited Edition Sneakers</h1>
+      <h1 className='text-4xl font-bold 2xl:text-5xl'>Fall Limited Edition Sneakers</h1>
       <p className='text-ec-dark-grayishblue'>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
       </div>
 
