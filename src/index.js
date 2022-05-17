@@ -18,6 +18,7 @@ import Intro from './07-intro/Intro';
 import Pricing from './08-pricing/Pricing';
 import Calculator from './09-calculator/Calculator';
 import Ecommerce from './10-e-commerce/Ecommerce';
+import RoomHome from './11-roomhome/RoomHome';
 
 
 ReactDOM.render(
@@ -37,6 +38,7 @@ ReactDOM.render(
         <Route  path="/pricing/"  element={<Pricing />} />
         <Route  path="/calculator/"  element={<Calculator />} />
         <Route  path="/ecommerce/"  element={<Ecommerce />} />
+        <Route  path="/roomhome/"  element={<RoomHome />} />
       </Routes>
 
      

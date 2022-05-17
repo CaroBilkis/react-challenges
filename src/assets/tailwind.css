@@ -653,3 +653,31 @@ background-color:  hsl(25, 98%, 40%);
 .text-ec-light-grayishblue {
     color:   hsl(223, 64%, 98%);
 }
+
+/* ROOM HOMEPAGE */
+
+.bg-room-dark-gray{
+background-color:hsl(0, 0%, 63%) ;
+}
+.bg-room-very-dark-gray{
+background-color: hsl(0, 0%, 27%) ;
+}
+.hover\:bg-room-very-dark-gray:hover {
+    background-color: hsl(0, 0%, 27%) ; 
+}
+
+.text-room-dark-gray{
+color:hsl(0, 0%, 63%) ;
+}
+.text-room-very-dark-gray{
+color: hsl(0, 0%, 27%) ;
+}
+.hover\:text-room-very-dark-gray:hover {
+    color: hsl(0, 0%, 27%) ; 
+}
+.hover\:text-room-dark-gray:hover {
+    color:hsl(0, 0%, 63%) ;
+}
+.font-12{
+    font-size: 12px;
+}

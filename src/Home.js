@@ -77,6 +77,12 @@ function Home() {
     <h1 className='text-2xl font-semibold mt-2'>E-commerce</h1>
     </NavLink>
     </li>
+
+    <li className='shadow px-4 py-2 rounded-md  lg:w-440 transform ease-in-out duration-300 mx-auto hover:-translate-y-1'> <NavLink className="nav-link" to="/roomhome/">
+    <img className='lg:w-96' src="./11-roomhome/desktop-preview.jpg" alt="" />
+    <h1 className='text-2xl font-semibold mt-2'>Room home </h1>
+    </NavLink>
+    </li>
    </ul>
 
     
