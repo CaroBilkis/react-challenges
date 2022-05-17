@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/react-challenges/static/css/main.3daa6bc0.css",
+    "main.css": "/react-challenges/static/css/main.9f01c338.css",
     "main.js": "/react-challenges/static/js/main.fd3f3ab1.js",
     "static/js/787.88e72507.chunk.js": "/react-challenges/static/js/787.88e72507.chunk.js",
+    "static/media/desktop-image-hero-1.jpg": "/react-challenges/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
     "static/media/image-gallery-orange.jpg": "/react-challenges/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/desktop-image-hero-3.jpg": "/react-challenges/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
+    "static/media/desktop-image-hero-2.jpg": "/react-challenges/static/media/desktop-image-hero-2.9d35405672f4fca67945.jpg",
     "static/media/image-graphic-design.jpg": "/react-challenges/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
     "static/media/image-photography.jpg": "/react-challenges/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/mobile-image-hero-1.jpg": "/react-challenges/static/media/mobile-image-hero-1.5de3d1472db703fb2f8a.jpg",
+    "static/media/mobile-image-hero-2.jpg": "/react-challenges/static/media/mobile-image-hero-2.51db290a00388a5a0bea.jpg",
+    "static/media/image-about-dark.jpg": "/react-challenges/static/media/image-about-dark.329bbc446c27ddf69d0f.jpg",
+    "static/media/mobile-image-hero-3.jpg": "/react-challenges/static/media/mobile-image-hero-3.601d0f37f7ff5e62008c.jpg",
     "index.html": "/react-challenges/index.html",
     "static/media/icon-slider.svg": "/react-challenges/static/media/icon-slider.cbca35e0d11c560ba351.svg",
     "static/media/bg-pattern.svg": "/react-challenges/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
-    "main.3daa6bc0.css.map": "/react-challenges/static/css/main.3daa6bc0.css.map",
+    "main.9f01c338.css.map": "/react-challenges/static/css/main.9f01c338.css.map",
     "main.fd3f3ab1.js.map": "/react-challenges/static/js/main.fd3f3ab1.js.map",
     "787.88e72507.chunk.js.map": "/react-challenges/static/js/787.88e72507.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3daa6bc0.css",
+    "static/css/main.9f01c338.css",
     "static/js/main.fd3f3ab1.js"
   ]
 }
