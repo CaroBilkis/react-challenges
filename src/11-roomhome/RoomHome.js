@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Resize from './Resize';
+
 const RoomHome = () => {
 
   const [page, setPage] = useState(1);
