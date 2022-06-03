@@ -83,6 +83,12 @@ function Home() {
     <h1 className='text-2xl font-semibold mt-2'>Room home </h1>
     </NavLink>
     </li>
+
+    <li className='shadow px-4 py-2 rounded-md  lg:w-440 transform ease-in-out duration-300 mx-auto hover:-translate-y-1'> <NavLink className="nav-link" to="/space/home">
+    <img className='lg:w-96' src="/12-space/desktop-preview.jpg" alt="" />
+    <h1 className='text-2xl font-semibold mt-2'>Space tourism multi-page website</h1>
+    </NavLink>
+    </li>
    </ul>
 
     

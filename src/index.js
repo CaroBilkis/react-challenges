@@ -19,7 +19,11 @@ import Pricing from './08-pricing/Pricing';
 import Calculator from './09-calculator/Calculator';
 import Ecommerce from './10-e-commerce/Ecommerce';
 import RoomHome from './11-roomhome/RoomHome';
-
+import HomeSpace from './12-space/HomeSpace';
+import DestinationSpace from './12-space/DestinationSpace';
+import CrewSpace from './12-space/CrewSpace';
+import TecnologyCrew from './12-space/TechnologyCrew';
+TecnologyCrew
 
 ReactDOM.render(
   <React.StrictMode>
@@ -39,6 +43,10 @@ ReactDOM.render(
         <Route  path="/calculator/"  element={<Calculator />} />
         <Route  path="/ecommerce/"  element={<Ecommerce />} />
         <Route  path="/roomhome/"  element={<RoomHome />} />
+        <Route path="space/home" element={<HomeSpace />} />
+        <Route path="space/destination" element={<DestinationSpace />} />
+        <Route path="space/crew" element={<CrewSpace />} />
+        <Route path="space/technology" element={<TecnologyCrew />} />
       </Routes>
 
      

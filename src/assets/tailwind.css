@@ -11,8 +11,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* QR */
 .bg-light-blue{
     background-color:hsl(212, 45%, 89%);
@@ -681,3 +681,104 @@ color: hsl(0, 0%, 27%) ;
 .font-12{
     font-size: 12px;
 }
+/*  MULTIPAGE SPACE */
+
+.bg-space-blue{
+    background-color: #0B0D17;
+}
+.bg-space-lila{
+    background-color: #D0D6F9;
+}
+
+.border-gray-blue{
+    border-color: #A4A9B5;
+}
+
+.text-space-blue{
+    color: #0B0D17;
+}
+.text-space-lila{
+    color: #D0D6F9;
+}
+
+.hover\:bg-space-blue:hover{
+    background-color: #0B0D17;
+}
+.hover\:bg-space-lila:hover{
+    background-color: #D0D6F9;
+}
+
+.hover\:text-space-blue:hover{
+    color: #0B0D17;
+}
+.hover\:text-space-lila:hover{
+    color: #D0D6F9;
+}
+
+
+.font-bellefair{
+    font-family: 'Bellefair', serif;
+}
+/* 
+.text-heading-1{
+    font-size: 150px;
+}
+.text-heading-2{
+    font-size: 100px;
+}
+.text-heading-3{
+    font-size: 56px;
+}
+.text-heading-4{
+    font-size: 32px;
+}
+.text-heading-5{
+    font-size: 28px;
+}
+
+.text-subheading-1{
+    font-size: 28px;
+}
+.text-subheading-2{
+    font-size: 14px;
+}
+.text-navtext{
+    font-size: 16px;
+}
+.text-navtext-18{
+    font-size: 18px;
+} */
+
+
+
+.border-b-1{
+    border-bottom: 1px #979797 solid;
+}
+.hover\:border-b-1:hover{
+    border-bottom: 1px #979797 solid;
+}
+
+.tracking-2-7{
+    letter-spacing: 2.7px;
+}
+.tracking-2-35{
+    letter-spacing: 2.35px;
+}
+.tracking-4-72{
+    letter-spacing: 4.72px;
+}
+.shadow-space{
+    box-shadow: 0 0px 20px  #979797;
+  }
+
+.hover\:shadow-space:hover {
+    box-shadow: 0 0 0 88px #ffffff2a;
+  }
+.font-barlow-condensed{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+  .blur-space{
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+  
+  }
