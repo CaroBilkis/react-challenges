@@ -60,7 +60,7 @@ function HomeSpace() {
    <div className='flex flex-row justify-between z-50  items-center   '>
     
     <div className='flex flex-row items-center gap-14 '>
-    <NavLink className="" to="/12-space/home"><img className='z-0 ' src="../12-space/home/logo.png" alt="" /></NavLink>
+    <NavLink className="" to="/12-space/home"><img className='z-0 ' src="12-space/home/logo.png" alt="" /></NavLink>
     <div className='z-0 h-0.5 bg-gray-700  desktop:w-440 '></div>
     
     </div>

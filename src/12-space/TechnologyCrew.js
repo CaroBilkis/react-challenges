@@ -94,7 +94,7 @@ function TecnologyCrew() {
    <div className='flex flex-row justify-between z-50  items-center '>
     
     <div className='flex flex-row items-center gap-14 '>
-    <NavLink className="" to="/space/home"><img className='z-0 ' src="../12-space/home/logo.png" alt="" /></NavLink>
+    <NavLink className="" to="/space/home"><img className='z-0 ' src="12-space/home/logo.png" alt="" /></NavLink>
   
     <div className='z-0 h-0.5 bg-gray-700  desktop:w-440 '></div>
 
@@ -256,7 +256,7 @@ function TecnologyCrew() {
 
     </div>
 
-    <img className='z-50 rounded-sm desktop:flex tablet:hidden mobile:hidden' src="../12-space/technology/image-launch-vehicle-portrait.jpg" alt="" />
+    <img className='z-50 rounded-sm desktop:flex tablet:hidden mobile:hidden' src="12-space/technology/image-launch-vehicle-portrait.jpg" alt="" />
 
     <div className='order-1 '>
     <div className='w-screen  tablet:h-330 mobile:h-222 z-50  desktop:hidden tablet:flex mobile:flex bg-launch bg-cover '></div>
@@ -272,7 +272,7 @@ function TecnologyCrew() {
       <p className='font-barlow desktop:text-nav-18 tablet:text-nav-16 mobile:text-nav-15 text-space-lila  tablet:w-485 mobile:w-327'>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch. </p>
     </div>
 
-    <img className='z-50   rounded-sm desktop:flex tablet:hidden mobile:hidden ' src="../12-space/technology/image-space-capsule-portrait.jpg" alt="" />
+    <img className='z-50   rounded-sm desktop:flex tablet:hidden mobile:hidden ' src="12-space/technology/image-space-capsule-portrait.jpg" alt="" />
     
     <div className='order-1 tablet:overflow-visible '>
     <div className='w-screen tablet:h-330 mobile:h-222 z-50  desktop:hidden tablet:flex mobile:flex bg-space bg-cover '></div>
@@ -287,7 +287,7 @@ function TecnologyCrew() {
       <p className='font-barlow desktop:text-nav-18 tablet:text-nav-16 mobile:text-nav-15 text-space-lila tablet:w-485  mobile:w-327'>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained. </p>
     </div>
 
-    <img className='z-50 rounded-sm desktop:flex tablet:hidden mobile:hidden ' src="../12-space/technology/image-spaceport-portrait.jpg" alt="" />
+    <img className='z-50 rounded-sm desktop:flex tablet:hidden mobile:hidden ' src="12-space/technology/image-spaceport-portrait.jpg" alt="" />
 
     <div className='order-1 tablet:overflow-visible '>
     <div className='w-screen tablet:h-330 mobile:h-222 z-50  desktop:hidden tablet:flex mobile:flex bg-spacePort bg-cover '></div>

@@ -102,7 +102,7 @@ function DestinationSpace() {
    <div className='flex flex-row justify-between z-50  items-center '>
     
     <div className='flex flex-row items-center gap-14 '>
-    <NavLink className="" to="/space/home"><img className='z-0 ' src="../12-space/home/logo.png" alt="" /></NavLink>
+    <NavLink className="" to="/space/home"><img className='z-0 ' src="12-space/home/logo.png" alt="" /></NavLink>
     <div className=' 
      z-0 h-0.5 bg-gray-700  desktop:w-440 '></div>
     
@@ -237,10 +237,10 @@ function DestinationSpace() {
     </div>
  
    <div className='  tablet:w-585  tablet:h-760 flex tablet:flex-col mobile:flex-col desktop:flex-row items-center justify-between gap-8 tablet:text-center mobile:text-center'>
-      {moon? <img className='tablet:w-300 tablet:h-300 mobile:h-170 mobile:w-170 z-0 ' src="../12-space/destination/image-moon.png" alt="" />
-      :mars? <img className='tablet:w-300 tablet:h-300 mobile:h-170 mobile:w-170 z-0 ' src="../12-space/destination/image-mars.png" alt="" />
-      :europa? <img className='tablet:w-300  tablet:h-300 mobile:h-170 mobile:w-170  z-0 ' src="../12-space/destination/image-europa.png" alt="" />
-      :titan? <img className='tablet:w-300  tablet:h-300 mobile:h-170 mobile:w-170  z-0 ' src="../12-space/destination/image-titan.png" alt="" />
+      {moon? <img className='tablet:w-300 tablet:h-300 mobile:h-170 mobile:w-170 z-0 ' src="12-space/destination/image-moon.png" alt="" />
+      :mars? <img className='tablet:w-300 tablet:h-300 mobile:h-170 mobile:w-170 z-0 ' src="12-space/destination/image-mars.png" alt="" />
+      :europa? <img className='tablet:w-300  tablet:h-300 mobile:h-170 mobile:w-170  z-0 ' src="12-space/destination/image-europa.png" alt="" />
+      :titan? <img className='tablet:w-300  tablet:h-300 mobile:h-170 mobile:w-170  z-0 ' src="12-space/destination/image-titan.png" alt="" />
       :''}
 
    <div className='flex flex-col'>
