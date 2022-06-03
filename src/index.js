@@ -23,7 +23,7 @@ import HomeSpace from './12-space/HomeSpace';
 import DestinationSpace from './12-space/DestinationSpace';
 import CrewSpace from './12-space/CrewSpace';
 import TecnologyCrew from './12-space/TechnologyCrew';
-TecnologyCrew
+
 
 ReactDOM.render(
   <React.StrictMode>
