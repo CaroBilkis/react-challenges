@@ -37,10 +37,10 @@ module.exports = {
       spaceDestinationTablet:"url('./img/space/destination/background-destination-tablet.jpg')",
       spaceDestinationMobile:"url('./img/space/destination/background-destination-mobile.jpg')",
     
-      mark:"url('../img/space/crew/image-mark-shuttleworth.png')",
-      hurley:"url('../img/space/crew/image-douglas-hurley.png')",
-      victor:"url('../img/space/crew/image-victor-glover.png')",
-      anousheh:"url('../img/space/crew/image-anousheh-ansari.png')",
+      mark:"url('./img/space/./image-mark-shuttleworth.png')",
+      hurley:"url('./img/space/crew/image-douglas-hurley.png')",
+      victor:"url('./img/space/crew/image-victor-glover.png')",
+      anousheh:"url('./img/space/crew/image-anousheh-ansari.png')",
 
       launch:"url('./img/space/tech/image-launch-vehicle-landscape.jpg')",
       
