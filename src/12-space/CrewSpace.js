@@ -263,7 +263,7 @@ function CrewSpace() {
     </div>
 
     <div className='mobile:w-327 flex flex-col  items-center desktop:absolute right-0'>
-    <img className=' z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-177' src="../12-space/crew/image-douglas-hurley.png" alt="" />
+    <img className=' z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-177' src="12-space/crew/image-douglas-hurley.png" alt="" />
     <hr className='border-white opacity-50 border-1 w-full  desktop:hidden tablet:hidden mobile:flex' />
     </div>
   </div> : 
@@ -296,7 +296,7 @@ function CrewSpace() {
 
   <div className='mobile:w-327 flex flex-col  items-center desktop:absolute right-0'>
 
-  <img className=' desktop:relative desktop:-bottom-4 z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-153' src="../12-space/crew/image-mark-shuttleworth.png" alt="" />
+  <img className=' desktop:relative desktop:-bottom-4 z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-153' src="12-space/crew/image-mark-shuttleworth.png" alt="" />
   <hr className='border-white opacity-50 border-1 w-full  desktop:hidden tablet:hidden mobile:flex' />
   </div>
 </div> : 
@@ -328,7 +328,7 @@ function CrewSpace() {
   </div>
 
   <div className='mobile:w-327 flex flex-col  items-center desktop:absolute right-0'>
-  <img className=' desktop:relative desktop:-bottom-20 z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-177' src="../12-space/crew/image-victor-glover.png" alt="" />
+  <img className=' desktop:relative desktop:-bottom-20 z-0 desktop:h-712 tablet:h-572 mobile:h-222 mobile:w-177' src="12-space/crew/image-victor-glover.png" alt="" />
   <hr className='border-white opacity-50 border-1 w-full  desktop:hidden tablet:hidden mobile:flex' />
   </div>
 </div> : 
@@ -360,7 +360,7 @@ function CrewSpace() {
   </div>
 
   <div className='mobile:w-327 flex flex-col items-center desktop:absolute right-0'>
-  <img className=' desktop:relative desktop:-bottom-36 z-0 desktop:h-712 tablet:h-572 mobile:h-223 mobile:w-226 ' src="../12-space/crew/image-anousheh-ansari.png" alt="" />
+  <img className=' desktop:relative desktop:-bottom-36 z-0 desktop:h-712 tablet:h-572 mobile:h-223 mobile:w-226 ' src="12-space/crew/image-anousheh-ansari.png" alt="" />
   <hr className='border-white opacity-50 border-1 w-full desktop:hidden  tablet:hidden mobile:flex' />
   </div>
 </div> :  ''}
