@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-challenges/static/css/main.186c45fd.css",
-    "main.js": "/react-challenges/static/js/main.5b8295a0.js",
+    "main.js": "/react-challenges/static/js/main.a1860dfb.js",
     "static/js/787.88e72507.chunk.js": "/react-challenges/static/js/787.88e72507.chunk.js",
     "static/media/image-victor-glover.png": "/react-challenges/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/react-challenges/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -38,11 +38,11 @@
     "static/media/icon-slider.svg": "/react-challenges/static/media/icon-slider.cbca35e0d11c560ba351.svg",
     "static/media/bg-pattern.svg": "/react-challenges/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
     "main.186c45fd.css.map": "/react-challenges/static/css/main.186c45fd.css.map",
-    "main.5b8295a0.js.map": "/react-challenges/static/js/main.5b8295a0.js.map",
+    "main.a1860dfb.js.map": "/react-challenges/static/js/main.a1860dfb.js.map",
     "787.88e72507.chunk.js.map": "/react-challenges/static/js/787.88e72507.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.186c45fd.css",
-    "static/js/main.5b8295a0.js"
+    "static/js/main.a1860dfb.js"
   ]
 }
